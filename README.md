@@ -22,15 +22,15 @@ SmartMall is a full-stack analytics and recommendation platform built for shoppi
   - `middlewares/` - auth and error handling middleware
   - `models/` - Mongoose schemas for users, stores, trends, and walk-in logs
   - `routes/` - Express API routes
-  - `tests/` - Jest + Supertest backend tests
-- `frontend/`
-  - `src/` - React app source
-  - `src/components/` - UI components for login, dashboards, charts, and forms
-  - `src/api.js` - Axios client with auth token support
-  - `src/App.jsx` - routing and protected pages
-  - `src/App.css` / `src/index.css` - Tailwind-based styling
+## Screenshot Preview
 
-## Screenshots
+Placeholder screenshots are available in the `screenshots/` folder. Replace them with real app screenshots when ready.
+
+![Login Screen](screenshots/login.svg)
+
+![Admin Dashboard](screenshots/admin-dashboard.svg)
+
+![Store Manager Dashboard](screenshots/store-manager-dashboard.svg)
 
 
 ![Login Screen](screenshots/login.png)
@@ -82,6 +82,19 @@ SmartMall is a full-stack analytics and recommendation platform built for shoppi
    ```
 4. Visit the app at the Vite URL shown in the terminal (usually `http://localhost:5173`).
 
+## Environment Variables
+
+Create a `.env` file in `backend/` with the following variables (example):
+
+```env
+MONGO_URI=mongodb://localhost:27017
+DB_NAME=smartmall
+JWT_SECRET=your_jwt_secret_here
+PORT=5000
+```
+
+You may also set `ADMIN_TOKEN` in test environments as used by some backend tests.
+
 ## Running Tests
 
 From the backend folder:
@@ -111,6 +124,8 @@ npm test
 - `GET /api/walkinlogs` - list walk-in logs
 - `POST /api/walkinlogs` - add a new walk-in log
 
+For full request/response details visit the Swagger UI at `/api-docs` when the server is running.
+
 ## Notes
 
 - The backend uses CORS with the frontend origin configured for `http://localhost:5173`.
@@ -123,7 +138,17 @@ npm test
 2. Create a feature branch.
 3. Open a pull request with a clear description.
 
+### Recommended Git Workflow
+
+- Create feature branches from `main`: `git checkout -b feature/your-feature`
+- Push branch and open a PR for review
+- Keep `main` protected and merge via PR
+
 ## License
 
 This project is released under the ISC License.
+
+## Contact
+
+If you need help setting up or want to contribute, open an issue or contact the maintainer via the repository's GitHub page.
 
