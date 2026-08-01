@@ -30,9 +30,8 @@ SmartMall is a full-stack analytics and recommendation platform built for shoppi
   - `src/App.jsx` - routing and protected pages
   - `src/App.css` / `src/index.css` - Tailwind-based styling
 
-## Screenshot Preview
+## Screenshots
 
-> Placeholder screenshots are available in the `screenshots/` folder. Replace them with real app screenshots when ready.
 
 ![Login Screen](screenshots/login.png)
 
