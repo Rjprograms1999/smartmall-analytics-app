@@ -22,21 +22,15 @@ SmartMall is a full-stack analytics and recommendation platform built for shoppi
   - `middlewares/` - auth and error handling middleware
   - `models/` - Mongoose schemas for users, stores, trends, and walk-in logs
   - `routes/` - Express API routes
-## Screenshot Preview
+## Screenshot 
 
-Placeholder screenshots are available in the `screenshots/` folder. Replace them with real app screenshots when ready.
-
-![Login Screen](screenshots/login.svg)
-
-![Admin Dashboard](screenshots/admin-dashboard.svg)
-
-![Store Manager Dashboard](screenshots/store-manager-dashboard.svg)
-
-
+## Login Screen
 ![Login Screen](screenshots/login.png)
 
+## Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
+## Store Manager Dashboard
 ![Store Manager Dashboard](screenshots/store-manager-dashboard.png)
 
 ## Getting Started
