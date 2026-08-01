@@ -34,11 +34,11 @@ SmartMall is a full-stack analytics and recommendation platform built for shoppi
 
 > Placeholder screenshots are available in the `screenshots/` folder. Replace them with real app screenshots when ready.
 
-![Login Screen](screenshots/login.svg)
+![Login Screen](screenshots/login.png)
 
-![Admin Dashboard](screenshots/admin-dashboard.svg)
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
-![Store Manager Dashboard](screenshots/store-manager-dashboard.svg)
+![Store Manager Dashboard](screenshots/store-manager-dashboard.png)
 
 ## Getting Started
 
